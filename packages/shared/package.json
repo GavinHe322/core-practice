@@ -1,0 +1,29 @@
+{
+  "name": "@hgx/shared",
+  "version": "1.0.0",
+  "description": "internal utils shared across @vue packages",
+  "main": "index.js",
+  "module": "dist/shared.esm-bundler.js",
+  "types": "dist/shared.d.ts",
+  "files": [
+    "index.js",
+    "dist"
+  ],
+  "sideEffects": false,
+  "buildOptions": {
+    "formats": [
+      "esm-bundler",
+      "cjs"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GavinHe322/core-practice.git",
+    "directory": "packages/shared"
+  },
+  "keywords": [
+    "vue"
+  ],
+  "author": "GavinHe322",
+  "license": "MIT"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "@vue/runtime-core",
+  "version": "1.0.0",
+  "description": "@vue/compiler-core",
+  "main": "index.js",
+  "module": "dist/compiler-core.esm-bundler.js",
+  "types": "dist/compiler-core.d.ts",
+  "files": [
+    "index.js",
+    "dist"
+  ],
+  "buildOptions": {
+    "name": "VueCompilerCore",
+    "compat": true,
+    "formats": [
+      "esm-bundler",
+      "cjs"
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Gavin",
+  "license": "ISC"
+}
